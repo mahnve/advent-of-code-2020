@@ -14,9 +14,9 @@ fun main() {
 }
 
 fun three() {
-    for (first in dec2.data) {
-        for (second in dec2.data) {
-            for (third in dec2.data) {
+    for (first in data) {
+        for (second in data) {
+            for (third in data) {
                 if ((first + second + third) == 2020) {
 
                     println(String.format("%s * %s * %s = %s", first, second, third,  first * second*third));
